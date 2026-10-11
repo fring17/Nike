@@ -1,0 +1,232 @@
+@import 'font.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* nav start */
+
+.nav {
+    padding: 14px 0;
+    background: #322E41;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+}
+
+
+.nav-link {
+    padding: 24.5px 22px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 14px;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: #D47300;
+    background: #fff;
+}
+
+/* nav end */
+
+/* content start */
+
+.content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: url(./images/banner.jpg) center center / cover no-repeat;
+    min-height: 500px;
+}
+
+.content-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content-txt {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* nike start */
+
+.nike {
+    padding-bottom: 30px;
+}
+
+.nike-big {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: -37px;
+}
+
+.nike-big-shoes {
+    max-width: 540px;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 6px 5px 4px 6px #2c2a2a43;
+}
+
+.nike-big-title {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2C2A2A;
+}
+
+.nike-big-txt {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9B9B;
+}
+
+.nike-mini {
+    display: flex;
+    flex-wrap: wrap;
+    /* агар бита линияга сигмаса пасга туриб огин дигани */
+    gap: 30px;
+}
+
+.nike-mini-box {
+    text-align: center;
+    max-width: 255px;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 6px 5px 4px 6px #2c2a2a43;
+}
+
+.nike-mini-title {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2C2A2A;
+}
+
+.nike-mini-txt {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9B9B;
+}
+
+.nike-mini-img {
+    border: solid #D47300;
+    padding: 22px 8px 22px 6px;
+    border-radius: 50%;
+}
+
+.last-min-img {
+    padding: 9px 5px 21px 5px;
+    /* border: solid #D47300;
+    border-radius: 50%; */
+}
+
+/* footer */
+
+.footer {
+    background: #322E41;
+    padding: 40px 0;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-input {
+    max-width: 350px;
+    width: 100%;
+    padding: 9px 0 9px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9B9B;
+}
+
+.footer-input:last-of-type {
+    padding: 10px 0 58px 10px;
+}
+
+.footer-button {
+    max-width: 350px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #544294;
+    padding: 9px 0;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 164px;
+}
+
+
+.footer-link {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #fff;
+    transition: .4s;
+}
+
+.footer-link:hover {
+    color: #D47300;
+}
+
+.footer-icons {
+    display: flex;
+    margin-left: 215px;
+    gap: 40px;
+}
